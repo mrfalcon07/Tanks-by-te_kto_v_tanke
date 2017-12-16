@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Tanks"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/mrfalcon/CLionProjects/Tanks/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mrfalcon/CLionProjects/Tanks/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mrfalcon/CLionProjects/Tanks/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mrfalcon/CLionProjects/Tanks/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mrfalcon/CLionProjects/Tanks/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/mrfalcon/CLionProjects/Tanks/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mrfalcon/CLionProjects/Tanks/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mrfalcon/CLionProjects/Tanks/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mrfalcon/CLionProjects/Tanks/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mrfalcon/CLionProjects/Tanks/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/mrfalcon/CLionProjects/Tanks/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mrfalcon/CLionProjects/Tanks/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mrfalcon/CLionProjects/Tanks/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mrfalcon/CLionProjects/Tanks/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mrfalcon/CLionProjects/Tanks/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Tanks">
+				<Option output="/home/mrfalcon/CLionProjects/Tanks/cmake-build-debug/Tanks" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mrfalcon/CLionProjects/Tanks/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/mrfalcon/CLionProjects/Tanks/SFML-2.4.2/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mrfalcon/CLionProjects/Tanks/cmake-build-debug/Makefile&quot;  VERBOSE=1 Tanks"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mrfalcon/CLionProjects/Tanks/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mrfalcon/CLionProjects/Tanks/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mrfalcon/CLionProjects/Tanks/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Tanks/fast">
+				<Option output="/home/mrfalcon/CLionProjects/Tanks/cmake-build-debug/Tanks" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mrfalcon/CLionProjects/Tanks/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/mrfalcon/CLionProjects/Tanks/SFML-2.4.2/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mrfalcon/CLionProjects/Tanks/cmake-build-debug/Makefile&quot;  VERBOSE=1 Tanks/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mrfalcon/CLionProjects/Tanks/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mrfalcon/CLionProjects/Tanks/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mrfalcon/CLionProjects/Tanks/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/mrfalcon/CLionProjects/Tanks/AIScene.cpp">
+			<Option target="Tanks"/>
+		</Unit>
+		<Unit filename="/home/mrfalcon/CLionProjects/Tanks/AIScene.h">
+			<Option target="Tanks"/>
+		</Unit>
+		<Unit filename="/home/mrfalcon/CLionProjects/Tanks/AbstractScene.cpp">
+			<Option target="Tanks"/>
+		</Unit>
+		<Unit filename="/home/mrfalcon/CLionProjects/Tanks/AbstractScene.h">
+			<Option target="Tanks"/>
+		</Unit>
+		<Unit filename="/home/mrfalcon/CLionProjects/Tanks/DrawScene.cpp">
+			<Option target="Tanks"/>
+		</Unit>
+		<Unit filename="/home/mrfalcon/CLionProjects/Tanks/DrawScene.h">
+			<Option target="Tanks"/>
+		</Unit>
+		<Unit filename="/home/mrfalcon/CLionProjects/Tanks/InterfaseScene.cpp">
+			<Option target="Tanks"/>
+		</Unit>
+		<Unit filename="/home/mrfalcon/CLionProjects/Tanks/InterfaseScene.h">
+			<Option target="Tanks"/>
+		</Unit>
+		<Unit filename="/home/mrfalcon/CLionProjects/Tanks/PhisicalScene.cpp">
+			<Option target="Tanks"/>
+		</Unit>
+		<Unit filename="/home/mrfalcon/CLionProjects/Tanks/PhisicalScene.h">
+			<Option target="Tanks"/>
+		</Unit>
+		<Unit filename="/home/mrfalcon/CLionProjects/Tanks/PlayerController.cpp">
+			<Option target="Tanks"/>
+		</Unit>
+		<Unit filename="/home/mrfalcon/CLionProjects/Tanks/PlayerController.h">
+			<Option target="Tanks"/>
+		</Unit>
+		<Unit filename="/home/mrfalcon/CLionProjects/Tanks/SoundScene.cpp">
+			<Option target="Tanks"/>
+		</Unit>
+		<Unit filename="/home/mrfalcon/CLionProjects/Tanks/SoundScene.h">
+			<Option target="Tanks"/>
+		</Unit>
+		<Unit filename="/home/mrfalcon/CLionProjects/Tanks/main.cpp">
+			<Option target="Tanks"/>
+		</Unit>
+		<Unit filename="/home/mrfalcon/CLionProjects/Tanks/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
